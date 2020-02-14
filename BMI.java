@@ -21,6 +21,7 @@ public class BMI {
    System.out.println("Hvad hedder du?") ;
     
     // hent til scanner
+   ms.nextLine(); 
    String navn = ms.nextLine(); 
     // OBS: pas på scanner-buggen
     
@@ -28,6 +29,9 @@ public class BMI {
    System.out.println("Din bmi er: " + bmi) ;
     // gem format-linjen i en streng-variabel for sig
     // udregn bmi og udskriv vha printf(format,navn,bmi)
+
+   String format = "Hej %s ";
+   System.out.printf(format,bmi);
     
   
   }

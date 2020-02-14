@@ -5,6 +5,7 @@ public class Format {
       int myAge = 42;
       char myLetter = 'a';
       long lbase = (long) 1.0E17;
+      System.out.printf("%s",)
       // brug System.out.printf til at printe flg:
       // 0,33
       // |   Otto Rehagel|
